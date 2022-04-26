@@ -16,3 +16,5 @@ The following necessary packages should be installed in to process, generate fin
 4. Tensorflow
 5. Scikit Learn
 6. Jupyter Notebook
+
+## Procedures:

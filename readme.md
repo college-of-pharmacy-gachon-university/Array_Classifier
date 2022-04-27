@@ -18,3 +18,5 @@ The following necessary packages should be installed in to process, generate fin
 6. Jupyter Notebook
 
 ## Procedures:
+1. Collection of chemical data from ChEMBL (Version 24) data for five different targets (i.e. nicotinic acetylcholine receptors (nAChR), muscarinic acetylcholine receptors (mAChR), vesicular acetylcholine receptors (VAChT), acetylcholinesterase (AChE) and butyrylcholinesterase (BUChE) using ChEMBL provided SQL file.
+2. 

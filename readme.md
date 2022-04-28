@@ -34,9 +34,16 @@ The following necessary packages should be installed in to process, generate fin
     |   CWA         |       95          |         |         |        |          |  95    |
     |   NPS         |       3126        |         |         |        |          |  3126  |
 
+
+
 ### 2. Feature Generation: 
 - We used the CDK Descriptor Kit for calculation of different Fingerprints (i.e. ECFP0, ECFP2, ECFP4, ECFP6, FCFP0, FCFP2, FCFP4, FCFP6) with fixed bitvector length (length:1024).
+    
+    All the input data along with calculated features are available under the `data` folder.
 ### 3. Model training:
 - To build classification models, we used the four machine learning methods (i.e. Random Forest, Decision Tree, Support Vector Machine, k-Nearest Neighbor)
+    - We have used R for machine learning classification and a R code for one target (i.e. nAChR) has been provided under the script folder. The same code was used for learning for other targets.
+
 ### 4. CNN training:
 - To build the array-type meta-predictor based classier, we used the CNN architecture with multiple layer of network for learning, validation and testing purposes.
+    - After learning 

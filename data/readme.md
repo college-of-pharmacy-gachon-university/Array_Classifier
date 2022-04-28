@@ -6,6 +6,7 @@
 3. `AChE target`: ache_set_1.csv
 4. `BuChE target`: buche_set_1.csv
 5. `VAChT target`: vacht_set_1.csv
+###### Note: Due to large input data size (exceed the maximum size limit for GitHub policy), the above input data has been reduced. The original file can be obtained after the request from the correcponding author (Prof. Mi-hyun Kim).
 
 ### Data Structure to build the array-type meta predictor based CNN classification models.
 

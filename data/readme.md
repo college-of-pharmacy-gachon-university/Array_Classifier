@@ -10,4 +10,4 @@
 
 ### - Data Structure to build the array-type meta predictor based CNN classification models.
 
-1. 200_Model_Data_Without_SMOTE.csv: The following data can be used to train all three CNN classifer using the reshaping function.
+1. 200_Model_Prediction_Data_Without_SMOTE.csv: The following data can be used to train all three CNN classifer using the reshaping function.

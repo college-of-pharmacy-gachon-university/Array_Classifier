@@ -19,6 +19,7 @@ The following necessary packages should be installed in to process, generate fin
 4. Tensorflow
 5. Scikit Learn
 6. Jupyter Notebook
+7. R / R-Studio
 
 ## Procedures:
 ### 1. Data Structure:

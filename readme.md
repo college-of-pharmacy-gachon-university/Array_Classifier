@@ -24,7 +24,7 @@ The following necessary packages should be installed in to process, generate fin
 - External data: In order to evaluate the performance of classifer, we used the external dataset from Chemical Warfare Agents (CWA) and New Psychoactive Substance (NPS).
 
     #### Dataset Description:
-    | Targets       |   Collected Data  | TR (Active) | TR (Inactive)| TS (Active) | TS (Inactive) | Total |
+    | Targets       |   Collected Data  | Train (Active) | Train (Inactive)| Test (Active) | Test (Inactive) | Total |
     |---------------|------------------ |----------|---------|--------|----------|--------|
     |   nAChR       |       3175        |   637   |   637   |   272  |  272     |  1818  |
     |   mAChR       |       24223       |   2431  |   2431  |   1041 |  1041    |  6944  |
@@ -34,16 +34,16 @@ The following necessary packages should be installed in to process, generate fin
     |   CWA         |       95          |         |         |        |          |  95    |
     |   NPS         |       3126        |         |         |        |          |  3126  |
 
-
-
 ### 2. Feature Generation: 
 - We used the CDK Descriptor Kit for calculation of different Fingerprints (i.e. ECFP0, ECFP2, ECFP4, ECFP6, FCFP0, FCFP2, FCFP4, FCFP6) with fixed bitvector length (length:1024).
     
     All the input data along with calculated features are available under the `data` folder.
 ### 3. Model training:
 - To build classification models, we used the four machine learning methods (i.e. Random Forest, Decision Tree, Support Vector Machine, k-Nearest Neighbor)
-    - We have used R for machine learning classification and a R code for one target (i.e. nAChR) has been provided under the script folder. The same code was used for learning for other targets.
+    - We have used R for machine learning classification and a R code for one target (i.e. nAChR) has been provided under the script folder. The same code was used for learning for other targets. We build 10 models (M1-M10) for each ML classifier and for each targets. This result in `4 ML method * 5 targets * 10 models (M1-M10) = 200 models`.
 
 ### 4. CNN training:
-- To build the array-type meta-predictor based classier, we used the CNN architecture with multiple layer of network for learning, validation and testing purposes.
-    - After learning 
+- To build the array-type meta-predictor based classifier, we used the CNN architecture with multiple layer of network for learning, validation and testing purposes.
+    - After training, testing and validating the ML classifer for different targets, the external set as third set was used to evaluate the ML performance. The predicted values for each targets, for each ML method and for different models (M1-M10) on external sets were used as input feature matrix with different shapes (i.e. CNN, CNN-3D, CNN-3D Reshaped) for array-type meta-predictor based CNN classification.
+    - The array-type meta-predictor CNN code is available under `script` folder.
+    - 

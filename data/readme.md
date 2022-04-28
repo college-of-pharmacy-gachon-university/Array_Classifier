@@ -7,6 +7,6 @@
 4. BuChE target: buche_set_1.csv
 5. VAChT target: vacht_set_1.csv
 
-### Data Structure t build the array-type meta predictor based CNN classification models.
+### Data Structure to build the array-type meta predictor based CNN classification models.
 
-1. 
+1. 200_Model_Data_Without_SMOTE.csv: The following data can be used to train all three CNN classifer using the reshaping function.

@@ -1,7 +1,5 @@
-#### To run the array-type meta predictor based classifier, the following jupyter notebook can be used.
-
-- ML Classification Model can be built using the R Script
-     - `(ML_Classification_R_Script.R)`
+#### The ML Classification Model can be built using the R Script
+     ML_Classification_R_Script.R
 
 #### The prediction on external dataset can be combined and further used to built the array-type meta predictor based classifier using the following code.
 

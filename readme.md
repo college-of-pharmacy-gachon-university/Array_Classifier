@@ -9,6 +9,10 @@ The Array type meta-predictor based classier was develped for prediction of Harm
 
 #### Figure 1: Design of meta-predictor for multi-tasking and data workflow.
 
+Cite this article
+Kumar, S., Kumari, C., Ahn, S. et al. Prediction of chemical warfare agents based on cholinergic array type meta-predictors. Sci Rep 12, 16709 (2022). 
+https://doi.org/10.1038/s41598-022-21150-2
+
 ## Requirements:
 
 The following necessary packages should be installed in to process, generate fingerprint, train and test your model.
